@@ -149,177 +149,109 @@ safepay-ai/
 └── models/
 ```
 
-🚀 Installation & Setup
-1. Clone the Repository
+---
+
+# 🚀 Installation & Setup
+
+## 1. Clone the Repository
+
+```bash
 git clone https://github.com/vishacharya29-max/safepay-ai.git
 cd safepay-ai
-2. Create a Virtual Environment
-Windows
-python -m venv venv
-venv\Scripts\activate
-macOS / Linux
-python3 -m venv venv
-source venv/bin/activate
-3. Install Dependencies
+```
+
+## 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run SafePay AI
+```
+
+## 3. Run the Application
+
+```bash
 python -m streamlit run app.py
+```
 
-The application will open in your browser at:
+The application will open at:
 
+```text
 http://localhost:8501
-📊 Machine Learning
+```
 
-SafePay AI uses Machine Learning to analyze transaction patterns and identify potentially fraudulent activity.
+---
 
-Models Used
-🌲 Random Forest Classifier
-📈 Gradient Boosting Classifier
-📊 Logistic Regression
+# 🛠️ Technologies Used
 
-The best-performing model is saved and used for prediction.
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Plotly
+- Streamlit
+- Joblib
+- Git & GitHub
 
-Important Transaction Factors
+---
 
-The system can analyze factors such as:
+# 👴 Senior Citizen Safety
 
-Transaction amount
-Original account balance
-New account balance
-Balance changes
-Transaction type
-Transaction time
-Transaction location
-Account-draining behavior
-Domestic or international transactions
-🛡️ Cyber Scam Defense Center
+SafePay AI provides simple cyber-safety information to help senior citizens stay safe from digital banking scams.
 
-SafePay AI also helps users understand common digital banking scams.
+- Never share OTPs.
+- Never share ATM PINs.
+- Never share CVV or passwords.
+- Never install remote-access applications because of unknown callers.
+- Never click suspicious payment links.
+- Verify suspicious calls with the official bank.
+- Report suspicious transactions immediately.
 
-📱 Fake Electricity Bill Scam
+---
 
-Scammers may send messages claiming that your electricity connection will be disconnected unless you make an immediate payment.
+# 🚨 Cybercrime Reporting
 
-Safety Tip: Always verify the message using the official electricity provider.
+### Cyber Crime Helpline
 
-🎁 Fake Lottery Scam
+**1930**
 
-A scammer may claim that you have won a large amount of money and ask you to pay a processing fee.
-
-Safety Tip: Never pay money to claim an unexpected prize.
-
-🖥️ Screen Sharing Scam
-
-Scammers may ask you to install remote-access software to "fix" your banking application.
-
-Safety Tip: Never allow unknown people to remotely access your phone or computer.
-
-🪪 Fake KYC Scam
-
-A scammer may claim that your bank account will be blocked unless you immediately update your KYC.
-
-Safety Tip: Contact your bank using its official website or customer-care number.
-
-🔐 OTP Scam
-
-Scammers may ask for your OTP, ATM PIN, CVV, or password.
-
-Safety Tip: Never share confidential banking information with anyone.
-
-👴 Senior Citizen Safety
-
-SafePay AI provides simple cyber-safety information that can be easily understood by senior citizens.
-
-Remember:
-❌ Never share your OTP.
-❌ Never share your ATM PIN.
-❌ Never share your CVV.
-❌ Never share your banking password.
-❌ Never install applications requested by unknown callers.
-❌ Never click suspicious payment links.
-❌ Never transfer money because someone is threatening you.
-✅ Verify suspicious calls with your bank.
-✅ Ask a trusted person if you are unsure.
-✅ Report suspicious transactions immediately.
-🚨 Cybercrime Reporting
-
-If you become a victim of financial cybercrime in India, report the incident as soon as possible.
-
-Cyber Crime Helpline
-
-1930
-
-National Cyber Crime Reporting Portal
+### National Cyber Crime Reporting Portal
 
 https://www.cybercrime.gov.in/
 
-Always verify important contact information through official government sources.
+---
 
-🔐 Security Notice
+# 🔮 Future Improvements
 
-SafePay AI is an academic and portfolio project developed for educational and demonstration purposes.
+- Real-time transaction monitoring
+- UPI fraud detection
+- SMS scam detection
+- Email scam detection
+- Explainable AI using SHAP
+- Kannada language support
+- Voice assistance for senior citizens
+- Mobile application
+- Real-time fraud alerts
+- Banking API integration
 
-It should not be considered a replacement for a bank's official fraud detection system or professional cybersecurity service.
+---
 
-A real-world production system would require additional security measures such as:
+# 👨‍💻 Author
 
-Secure authentication
-Data encryption
-Secure database management
-API security
-Rate limiting
-Security monitoring
-Model monitoring
-Privacy protection
-Regular security testing
-🔮 Future Improvements
-
-Future versions of SafePay AI may include:
-
-🚀 Real-time transaction monitoring
-💳 UPI fraud detection
-📱 SMS scam detection
-📧 Email scam detection
-🧠 Explainable AI using SHAP
-🌐 Multilingual support
-🗣️ Voice assistance for senior citizens
-📲 Mobile application
-🚨 Real-time fraud alerts
-🏦 Banking API integration
-📊 Advanced security dashboard
-🗣️ Kannada language support
-🎓 Project Purpose
-
-SafePay AI was developed as an AI/ML academic and portfolio project to demonstrate the application of Machine Learning in financial fraud detection and cybersecurity awareness.
-
-The project combines:
-
-Artificial Intelligence
-        +
-Machine Learning
-        +
-Data Analysis
-        +
-Cybersecurity Awareness
-        +
-User-Friendly Design
-👨‍💻 Author
-
-Vishacharya29-max
+**Vishacharya29-max**
 
 GitHub:
 
 https://github.com/vishacharya29-max/safepay-ai
 
-📄 License
+---
+
+# 📄 License
 
 This project is licensed under the MIT License.
 
-See the LICENSE file for details.
+---
 
-❤️ SafePay AI
+# ❤️ SafePay AI
 
-Think before you click. Verify before you pay. Stay safe online.
+> **Think before you click. Verify before you pay. Stay safe online.**
 
-
-
+Built with **Python, Machine Learning, and Streamlit**.
