@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.joblib
+venv/
+.venv/
+.vscode/
+.DS_Store
